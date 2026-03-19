@@ -1,4 +1,4 @@
-# GigGuard 🛡️
+# GigShield 🛡️
 
 > **Parametric Income Protection for Gig Workers in the Food Delivery Segment**
 
@@ -13,13 +13,13 @@ Our solution addresses the **Income Volatility of gig workers in the Food Delive
 ## 2. Persona & Scenarios
 
 ### Scenario 1 — Ravi, Swiggy Rider, Bengaluru
-Ravi earns ₹600/day on average. On a Tuesday afternoon, rainfall exceeds 50mm/hr in his delivery zone (Koramangala). Orders drop to zero. GigGuard detects the parametric trigger, validates Ravi's active status in that zone, and initiates a payout of **₹280** (proportional to lost hours) directly to his UPI ID — within **10 minutes**.
+Ravi earns ₹600/day on average. On a Tuesday afternoon, rainfall exceeds 50mm/hr in his delivery zone (Koramangala). Orders drop to zero. GigShield detects the parametric trigger, validates Ravi's active status in that zone, and initiates a payout of **₹280** (proportional to lost hours) directly to his UPI ID — within **10 minutes**.
 
 ### Scenario 2 — Priya, Zomato Rider, Delhi
-Delhi's AQI crosses 400 (Severe category). The government issues an outdoor advisory. Order volumes on Zomato drop 65% in Priya's zone. GigGuard's AQI trigger fires, cross-references her GPS activity, and processes a **partial-day income protection payout** automatically.
+Delhi's AQI crosses 400 (Severe category). The government issues an outdoor advisory. Order volumes on Zomato drop 65% in Priya's zone. GigShield's AQI trigger fires, cross-references her GPS activity, and processes a **partial-day income protection payout** automatically.
 
 ### Scenario 3 — Arjun, Swiggy Rider, Mumbai
-A sudden local bandh is declared in Dharavi. Arjun's GPS shows he is in the affected zone. GigGuard's social disruption trigger cross-checks the **GDELT Project news API** for strike/protest keywords in his geofence, confirms zone-level order activity has dropped over 70%, and processes his payout **without Arjun filing anything**.
+A sudden local bandh is declared in Dharavi. Arjun's GPS shows he is in the affected zone. GigShield's social disruption trigger cross-checks the **GDELT Project news API** for strike/protest keywords in his geofence, confirms zone-level order activity has dropped over 70%, and processes his payout **without Arjun filing anything**.
 
 ---
 
