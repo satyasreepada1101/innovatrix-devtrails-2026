@@ -66,7 +66,7 @@ We are building a **PWA (React/Tailwind)** for high agility:
 
 ## 5. AI/ML Integration
 
-### - Dynamic Premium Calculation using Risk Regression
+### 1) Dynamic Premium Calculation using Risk Regression
 The system uses a regression-based risk scoring model to estimate the likelihood of income loss in a worker's delivery zone.
 
 ### 2) Predictive Disruption Forecasting (Proactive Protection)
