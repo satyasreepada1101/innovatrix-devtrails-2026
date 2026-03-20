@@ -128,8 +128,6 @@ Traditional insurers cannot process small claims because **manual administration
 
 ---
 
----
-
 ## 9. Team
 
 | Name                            | Role        |
