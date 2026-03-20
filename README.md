@@ -148,7 +148,7 @@ Traditional insurers cannot process small claims because **manual administration
 
 | Resource           | Link            |
 |--------------------|-----------------|
-| GitHub Repository  | [https://github.com/satyasreepada1101/innovatrix-devtrails-2026] |
+| GitHub Repository  | https://github.com/satyasreepada1101/innovatrix-devtrails-2026 |
 | Phase 1 Demo Video | [Add link here] |
 
 ---
