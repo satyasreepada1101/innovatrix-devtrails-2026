@@ -128,24 +128,9 @@ Traditional insurers cannot process small claims because **manual administration
 
 ---
 
-## 9. Payout Formula
-
-The weekly tier defines the **maximum ceiling** only. Actual payout is always based on real income lost — a rider can never receive more than what they would have genuinely earned during the disruption window.
-
-```
-Actual Loss  =  Lost Hours  ×  Rider's Average Hourly Rate
-Payout       =  MIN(Actual Loss, Weekly Coverage Limit)  ×  Severity Multiplier
-```
-
-- **Severity Multiplier:** 1.0x for partial disruption, 1.5x for full-zone disruption
-- **Minimum trigger:** Disruption must exceed 2 continuous hours to activate
-- **Cap:** Payout can never exceed the weekly coverage limit of the rider's chosen tier
-
-**Example:** Ravi is on the Plus tier (₹1,000 ceiling). Rain hits for 3 hours. His average hourly rate is ₹80. Actual loss = ₹240. Payout = ₹240 — not ₹1,000. The tier ceiling only matters during a severe, extended disruption where actual loss would exceed the lower tier limits.
-
 ---
 
-## 10. Team
+## 9. Team
 
 | Name                            | Role        |
 |---------------------------------|-------------|
@@ -159,7 +144,7 @@ Payout       =  MIN(Actual Loss, Weekly Coverage Limit)  ×  Severity Multiplier
 
 ---
 
-## 11. Links
+## 10. Links
 
 | Resource           | Link            |
 |--------------------|-----------------|
