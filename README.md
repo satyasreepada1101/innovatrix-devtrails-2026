@@ -1,6 +1,6 @@
 # GigShield 🛡️
 
-> **Parametric Income Protection for Gig Workers in the Food Delivery Segment*
+> **Parametric Income Protection for Gig Workers in the Food Delivery Segment**
 
 **Guidewire DEVTrails 2026** | Team: Innovatrix | Amrita School of Engineering, Bengaluru
 
