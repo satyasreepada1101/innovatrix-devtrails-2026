@@ -2,6 +2,8 @@
 
 > **Parametric Income Protection for Gig Workers in the Food Delivery Segment**
 
+**Guidewire DEVTrails 2026** | Team: Innovatrix | Amrita School of Engineering, Bengaluru
+
 ---
 
 ## 1. Requirement & Persona Scenarios
@@ -41,19 +43,19 @@ A sudden local bandh is declared in Dharavi. Arjun's GPS shows he is in the affe
 Gig workers operate on weekly cycles; we match this with three simple tiers:
 
 | Coverage Tier | Weekly Premium | Max Weekly Payout |
-|---------------|---------------|-------------------|
-| Basic         | ₹29/week      | ₹300              |
-| Standard      | ₹49/week      | ₹600              |
-| Plus          | ₹79/week      | ₹1,000            |
+|---------------|----------------|-------------------|
+| Basic         | ₹29/week       | ₹300              |
+| Standard      | ₹49/week       | ₹600              |
+| Plus          | ₹79/week       | ₹1,000            |
 
 ### Parametric Triggers
 
-| Trigger        | Data Source             | Threshold                          |
-|----------------|-------------------------|------------------------------------|
-| Heavy Rainfall | OpenWeatherMap API      | > 15mm/hr in rider zone            |
-| Extreme Heat   | OpenWeatherMap API      | Temp > 44°C                        |
-| Severe AQI     | AQICN API               | AQI > 300 (Severe)                 |
-| Social Strike  | GDELT / News Scraper    | Zone orders drop > 70% for 2+ hrs |
+| Trigger        | Data Source          | Threshold                          |
+|----------------|----------------------|------------------------------------|
+| Heavy Rainfall | OpenWeatherMap API   | > 15mm/hr in rider zone            |
+| Extreme Heat   | OpenWeatherMap API   | Temp > 44°C                        |
+| Severe AQI     | AQICN API            | AQI > 300 (Severe)                 |
+| Social Strike  | GDELT / News Scraper | Zone orders drop > 70% for 2+ hrs  |
 
 ### Platform Choice: Progressive Web App (PWA)
 
@@ -100,26 +102,101 @@ To counter **"Telegram Syndicates"** using GPS-spoofing to drain the liquidity p
 
 ## 7. Tech Stack + Development Plan
 
-| Layer    | Technology            | Purpose                  | Justification                                              |
-|----------|-----------------------|--------------------------|------------------------------------------------------------|
-| Frontend | React (PWA)           | Rider & Admin Interface  | Fast development, cross-platform, no app install required. |
-| Backend  | Node.js + Express API | API & Business Logic     | Lightweight, real-time capable, and easy integration.      |
-| AI/ML    | Python (Scikit-learn) | Risk & Fraud Engine      | Efficient for Anomaly Detection and Premium Calculation.   |
-| Database | MongoDB               | Data Storage             | NoSQL flexibility for fast reads/writes of claims and earnings. |
-| Payment  | Razorpay              | Simulated Transactions   | Reliable India-friendly UPI payout simulation.             |
+| Layer    | Technology            | Purpose                 | Justification                                               |
+|----------|-----------------------|-------------------------|-------------------------------------------------------------|
+| Frontend | React (PWA)           | Rider & Admin Interface | Fast development, cross-platform, no app install required.  |
+| Backend  | Node.js + Express API | API & Business Logic    | Lightweight, real-time capable, and easy integration.       |
+| AI/ML    | Python (Scikit-learn) | Risk & Fraud Engine     | Efficient for Anomaly Detection and Premium Calculation.    |
+| Database | MongoDB               | Data Storage            | NoSQL flexibility for fast reads/writes of claims and earnings. |
+| Payment  | Razorpay              | Simulated Transactions  | Reliable India-friendly UPI payout simulation.              |
 
 ### APIs & Core Integrations
 
-| API Type | Provider               | Primary Use Case                                                            |
-|----------|------------------------|-----------------------------------------------------------------------------|
-| Weather  | OpenWeatherMap         | Real-time rain and temperature monitoring for triggers.                     |
-| Pollution| AQICN                  | Air quality for health-based disruption payouts.                            |
-| Traffic  | Google Maps Platform   | Validating congestion and verifying rider movement.                         |
-| Location | Google Play Services   | GPS + Network validation to detect spoofing syndicates.                     |
-| Platform | Custom (Simulated)     | Mocked Zomato/Swiggy APIs for orders and earnings data.                     |
+| API Type | Provider             | Primary Use Case                                                         |
+|----------|----------------------|--------------------------------------------------------------------------|
+| Weather  | OpenWeatherMap       | Real-time rain and temperature monitoring for triggers.                  |
+| Pollution| AQICN                | Air quality for health-based disruption payouts.                         |
+| Traffic  | Google Maps Platform | Validating congestion and verifying rider movement.                      |
+| Location | Google Play Services | GPS + Network validation to detect spoofing syndicates.                  |
+| Platform | Custom (Simulated)   | Mocked Zomato/Swiggy APIs for orders and earnings data.                  |
+
+### 6-Week Development Roadmap
+
+#### Phase 1 — Ideation & Foundation (Weeks 1–2, due Mar 20)
+- [x] Problem research and persona definition
+- [x] Weekly premium model design
+- [x] Parametric trigger list and data source identification
+- [x] Adversarial defense and anti-spoofing architecture design
+- [x] README documentation
+- [ ] 2-minute strategy + prototype video
+- [ ] Basic wireframes (Figma or hand-drawn)
+
+#### Phase 2 — Automation & Protection (Weeks 3–4, due Apr 4)
+- [ ] Rider registration and onboarding flow with Delivery Partner ID linking
+- [ ] Insurance policy creation with weekly tier pricing
+- [ ] Dynamic premium calculation ML model v1 — forecast-based
+- [ ] Parametric trigger integrations (OpenWeatherMap, AQICN, GDELT)
+- [ ] 15-minute polling trigger engine
+- [ ] Multi-Factor Proof-of-Presence verification engine
+- [ ] Zone Average Cross-Check fraud detection
+- [ ] Razorpay sandbox payout simulation
+
+#### Phase 3 — Scale & Optimise (Weeks 5–6, due Apr 17)
+- [ ] Full Isolation Forest fraud model with cluster anomaly detection
+- [ ] Syndicate Alert system — coordinated fraud ring detection
+- [ ] Device integrity check (Mock Location / Developer Options detection)
+- [ ] Intelligent dashboards — rider view and insurer/admin view
+- [ ] Predictive disruption analytics — next-week claims forecast by zone
+- [ ] Full end-to-end payout simulation with UPI mock
+- [ ] 5-minute demo video showing simulated disruption and automatic payout
+- [ ] Final pitch deck (PDF)
 
 ---
 
 ## 8. Business Viability (The "Unicorn" Perspective)
 
-Traditional insurers cannot process small claims because **manual administration costs exceed the claim value**. It reduces **Administrative Costs by 90%** through pure automation. By solving the **"GPS Spoofing" crisis**, we ensure the Sustainability of the liquidity pool, making us a high-tier candidate for **IPO**.
+Traditional insurers cannot process small claims because **manual administration costs exceed the claim value**. GigShield reduces **Administrative Costs by 90%** through pure automation. By solving the **"GPS Spoofing" crisis**, we ensure the sustainability of the liquidity pool, making us a high-tier candidate for **IPO**.
+
+---
+
+## 9. Payout Formula
+
+The weekly tier defines the **maximum ceiling** only. Actual payout is always based on real income lost — a rider can never receive more than what they would have genuinely earned during the disruption window.
+
+```
+Actual Loss  =  Lost Hours  ×  Rider's Average Hourly Rate
+Payout       =  MIN(Actual Loss, Weekly Coverage Limit)  ×  Severity Multiplier
+```
+
+- **Severity Multiplier:** 1.0x for partial disruption, 1.5x for full-zone disruption
+- **Minimum trigger:** Disruption must exceed 2 continuous hours to activate
+- **Cap:** Payout can never exceed the weekly coverage limit of the rider's chosen tier
+
+**Example:** Ravi is on the Plus tier (₹1,000 ceiling). Rain hits for 3 hours. His average hourly rate is ₹80. Actual loss = ₹240. Payout = ₹240 — not ₹1,000. The tier ceiling only matters during a severe, extended disruption where actual loss would exceed the lower tier limits.
+
+---
+
+## 10. Team
+
+| Name                            | Role        |
+|---------------------------------|-------------|
+| Laavya Sri Paruchoori           | Team Leader |
+| Kalyani Deepu Narayanan         | Member      |
+| K Deepti                        | Member      |
+| Gandrala Venkata Satya Sreepada | Member      |
+| Ishaan Balakrishna Duddi        | Member      |
+
+**University:** Amrita School of Engineering, Bengaluru
+
+---
+
+## 11. Links
+
+| Resource           | Link            |
+|--------------------|-----------------|
+| GitHub Repository  | [Add link here] |
+| Phase 1 Demo Video | [Add link here] |
+
+---
+
+*Built for Guidewire DEVTrails 2026 — Unicorn Chase. Seed. Scale. Soar.*
