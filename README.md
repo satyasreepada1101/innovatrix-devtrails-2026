@@ -120,37 +120,6 @@ To counter **"Telegram Syndicates"** using GPS-spoofing to drain the liquidity p
 | Location | Google Play Services | GPS + Network validation to detect spoofing syndicates.                  |
 | Platform | Custom (Simulated)   | Mocked Zomato/Swiggy APIs for orders and earnings data.                  |
 
-### 6-Week Development Roadmap
-
-#### Phase 1 — Ideation & Foundation (Weeks 1–2, due Mar 20)
-- [x] Problem research and persona definition
-- [x] Weekly premium model design
-- [x] Parametric trigger list and data source identification
-- [x] Adversarial defense and anti-spoofing architecture design
-- [x] README documentation
-- [ ] 2-minute strategy + prototype video
-- [ ] Basic wireframes (Figma or hand-drawn)
-
-#### Phase 2 — Automation & Protection (Weeks 3–4, due Apr 4)
-- [ ] Rider registration and onboarding flow with Delivery Partner ID linking
-- [ ] Insurance policy creation with weekly tier pricing
-- [ ] Dynamic premium calculation ML model v1 — forecast-based
-- [ ] Parametric trigger integrations (OpenWeatherMap, AQICN, GDELT)
-- [ ] 15-minute polling trigger engine
-- [ ] Multi-Factor Proof-of-Presence verification engine
-- [ ] Zone Average Cross-Check fraud detection
-- [ ] Razorpay sandbox payout simulation
-
-#### Phase 3 — Scale & Optimise (Weeks 5–6, due Apr 17)
-- [ ] Full Isolation Forest fraud model with cluster anomaly detection
-- [ ] Syndicate Alert system — coordinated fraud ring detection
-- [ ] Device integrity check (Mock Location / Developer Options detection)
-- [ ] Intelligent dashboards — rider view and insurer/admin view
-- [ ] Predictive disruption analytics — next-week claims forecast by zone
-- [ ] Full end-to-end payout simulation with UPI mock
-- [ ] 5-minute demo video showing simulated disruption and automatic payout
-- [ ] Final pitch deck (PDF)
-
 ---
 
 ## 8. Business Viability (The "Unicorn" Perspective)
