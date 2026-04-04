@@ -126,7 +126,7 @@ Weekly Premium = (Expected Max Payout × Adjusted Risk Likelihood) / (1 - Target
 
 - 🌐 **Live PWA App:** _[Insert Vercel/Expo link]_  
 - 🎬 **Phase 2 Demo Video:** _[Insert YouTube link]_  
-- 🎤 **Phase 1 Pitch Video:** _[Insert old link]_  
+- 🎤 **Phase 1 Pitch Video:** _[[Insert old link]](https://www.youtube.com/watch?v=jU6UIrdP0-U)_  
 
 > 🎥 Watch our 2-minute demo showcasing:
 > - Zero-Touch claim execution  
